@@ -1,5 +1,20 @@
-funnel
+completer
 ===========
+
+# UPDATE: 2020-10-21
+
+I have decided to move most of the motivations described below into a separate project [funnel](https://github.com/cosmicexplorer/funnel) which attempts to address sandboxed ephemeral process execution in a really neat way.
+
+This project, on the other hand, has morphed into a very early-stage experiment on the syntax and implementation of novel flow control.
+
+In my dreams, the two will be merged someday.
+
+# TODO
+- Remove mention of transpilation, and focus purely on the language in [`new-file.fun`](./language/new-file.fun).
+- There is a half-working parser for a slightly out-of-date version of the grammar specification in [`Parser.scala`](./language/Parser.scala).
+
+----------------
+
 
 *The idea behind the name "funnel" is that it should allow writing code at a higher level of abstraction, which all gets compiled down to the lowest common denominator of bash scripting.*
 
